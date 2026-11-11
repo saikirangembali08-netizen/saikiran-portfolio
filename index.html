@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Saikiran Gembali — aspiring SOC Analyst and Cybersecurity professional.">
+<title>Saikiran Gembali | Cybersecurity Portfolio</title>
+<style>
+:root{--bg:#08111f;--panel:#101d30;--panel2:#0c1829;--text:#edf5ff;--muted:#a8b8cc;--blue:#49b8ff;--line:#243750;--green:#6ee7b7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#122b49 0,transparent 32%),var(--bg);color:var(--text);font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1080px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#08111feF;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:15px 0}.brand{font-weight:800;letter-spacing:.4px}.brand span{color:var(--blue)}.navlinks{display:flex;gap:20px;flex-wrap:wrap;font-size:.92rem}.navlinks a{color:var(--muted)}
+.hero{padding:86px 0 68px;display:grid;grid-template-columns:1.5fr .8fr;gap:42px;align-items:center}
+.eyebrow{color:var(--green);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2.6rem,6vw,4.7rem);line-height:1.05;margin:15px 0}.accent{color:var(--blue)}.lead{color:var(--muted);font-size:1.12rem;max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:11px 18px;border:1px solid var(--blue);border-radius:9px;font-weight:700}.btn.primary{background:var(--blue);color:#04101d}.btn.secondary{color:var(--text);border-color:var(--line)}
+.hero-card,.card{background:linear-gradient(145deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:16px;padding:24px}
+.hero-card{text-align:center}.shield{width:112px;height:112px;margin:0 auto 16px;border:1px solid #2b6d9f;border-radius:28px;display:grid;place-items:center;color:var(--blue);font-size:3.5rem;background:#102c48}
+.hero-card strong{display:block;font-size:1.12rem}.hero-card p{color:var(--muted);margin:5px 0}
+section{padding:48px 0}h2{font-size:1.9rem;margin:0 0 8px}.sub{color:var(--muted);margin:0 0 24px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0 0 12px}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.tag{font-size:.78rem;color:#cceaff;border:1px solid #294c6d;border-radius:99px;padding:4px 10px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skillbox{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}.skillbox h3{font-size:1rem;margin:0 0 8px}.skillbox p{color:var(--muted);margin:0;font-size:.94rem}
+.timeline{border-left:2px solid #28577c;padding-left:22px}.timeline .card{margin-bottom:14px}
+.cover{background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:28px}.cover p{color:#d3dfed}.cover .placeholder{color:var(--green);font-weight:700}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}.contact{display:flex;gap:16px;flex-wrap:wrap}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:58px 0}.hero-card{max-width:340px}.grid,.skills{grid-template-columns:1fr}.navlinks{gap:10px}.navlinks a{font-size:.82rem}}
+@media print{header,.actions,.no-print{display:none!important}body{background:white;color:#111}.cover,.card,.skillbox{background:white;color:#111;border:1px solid #aaa}.cover p,.card p,.skillbox p{color:#222}a{color:#111}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav><div class="brand">SAIKIRAN<span>.</span></div><div class="navlinks">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#cover-letter">Cover Letter</a><a href="#contact">Contact</a>
+</div></nav></div></header>
+<main class="wrap">
+<section class="hero" id="home">
+<div><div class="eyebrow">Cybersecurity · SOC Operations · Threat Detection</div>
+<h1>Hi, I'm<br><span class="accent">Saikiran Gembali.</span></h1>
+<p class="lead">Aspiring SOC Analyst with hands-on practice in security monitoring, SIEM log analysis, alert triage, vulnerability assessment, and incident investigation. I enjoy learning how to detect threats and help keep systems secure.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore my work</a><a class="btn secondary" href="#contact">Contact me</a><button class="btn secondary" onclick="window.print()">Print / Save as PDF</button></div>
+</div>
+<aside class="hero-card"><div class="shield">⌑</div><strong>Security-minded. Always learning.</strong><p>Focused on entry-level SOC and cybersecurity opportunities</p><div class="tags" style="justify-content:center"><span class="tag">Splunk</span><span class="tag">Wazuh</span><span class="tag">Networking</span></div></aside>
+</section>
+
+<section id="about"><h2>About me</h2><p class="sub">A practical learner building a career in defensive security.</p>
+<div class="card"><p>I'm a Cyber Security graduate from Parul University with cybersecurity training through TechDefence HackTrack. My learning has focused on SOC operations, SIEM monitoring, log analysis, vulnerability management, networking, and basic incident response.</p><p>I have built practice environments using Splunk and Wazuh to collect and review logs, investigate suspicious authentication activity, and understand alert triage. I am looking for an opportunity as a SOC Analyst L1, Junior SOC Analyst, or Cybersecurity Analyst where I can contribute, learn from experienced teams, and grow.</p></div>
+</section>
+
+<section id="skills"><h2>Technical skills</h2><p class="sub">Tools and concepts from my training, labs, and projects.</p>
+<div class="skills">
+<div class="skillbox"><h3>SIEM & SOC</h3><p>Splunk, IBM QRadar, Wazuh, log ingestion, alert configuration, dashboards, alert triage, incident documentation.</p></div>
+<div class="skillbox"><h3>Vulnerability management</h3><p>Qualys, Rapid7, Nessus, Tanium Patch & Deploy, vulnerability assessment, CVE analysis, CVSS scoring.</p></div>
+<div class="skillbox"><h3>Network security</h3><p>TCP/IP, DNS, DHCP, OSI model, LAN/WAN, routing and switching, firewall fundamentals, Snort, Suricata.</p></div>
+<div class="skillbox"><h3>Security tools</h3><p>Nmap, Wireshark, Burp Suite, OWASP ZAP, Kali Linux.</p></div>
+<div class="skillbox"><h3>Systems & frameworks</h3><p>Windows/Linux security, Active Directory fundamentals, MITRE ATT&CK, NIST, ISO 27001.</p></div>
+<div class="skillbox"><h3>Programming & workflow</h3><p>Python, PowerShell, HTML, CSS, MySQL, Git, GitHub, VS Code.</p></div>
+</div></section>
+
+<section id="projects"><h2>Selected projects</h2><p class="sub">Hands-on work and academic project experience.</p>
+<div class="grid">
+<article class="card"><h3>SIEM Home Lab — Splunk</h3><p>Deployed Splunk Free on a local virtual machine and configured ingestion of Windows Event Logs and syslog sources. Created alert rules and dashboards to investigate anomalous login activity and port-scan indicators, and practiced alert tuning to reduce false positives.</p><div class="tags"><span class="tag">Splunk</span><span class="tag">Windows Event Logs</span><span class="tag">PowerShell</span><span class="tag">Alerting</span></div></article>
+<article class="card"><h3>SOC Monitoring & Incident Response — Wazuh</h3><p>Built a Wazuh-based SOC lab for centralized log collection. Reviewed Linux authentication logs, simulated SSH brute-force activity, triaged repeated failed-login alerts, correlated events, and mapped activity to MITRE ATT&CK.</p><div class="tags"><span class="tag">Wazuh</span><span class="tag">Linux</span><span class="tag">SSH</span><span class="tag">MITRE ATT&CK</span></div></article>
+<article class="card"><h3>Deepfake Detection System</h3><p>Developed an academic deepfake detection project using machine learning, deep learning, and computer vision to identify manipulated images and videos through image analysis and feature-detection techniques.</p><div class="tags"><span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">Computer Vision</span></div></article>
+<article class="card"><h3>Project links</h3><p>Repository links and project demonstrations can be added here when published.</p><p><span class="placeholder">[Add your GitHub project URLs]</span></p></article>
+</div></section>
+
+<section id="experience"><h2>Experience & education</h2><p class="sub">Training and academic background.</p>
+<div class="timeline">
+<div class="card"><h3>Cybersecurity Intern — TechDefence</h3><p><strong>TechDefence HackTrack · Dec 2024 – Mar 2025</strong></p><p>Completed hands-on cybersecurity training covering basic penetration testing, computer networking, hardware fundamentals, network security concepts, vulnerability assessment, and ethical hacking foundations.</p></div>
+<div class="card"><h3>B.Tech — Cyber Security</h3><p><strong>Parul University · 2025</strong></p><p>Bachelor of Technology in Cyber Security.</p></div>
+<div class="card"><h3>Certifications</h3><p>Basics of Python — Infosys<br>Java Language Features — Infosys</p></div>
+</div></section>
+
+<section id="cover-letter"><h2>Cover letter</h2><p class="sub">A reusable introduction for SOC Analyst / entry-level cybersecurity applications. Personalize the bracketed fields before sending.</p>
+<div class="cover" id="letter">
+<p><span class="placeholder">[Date]</span></p>
+<p><span class="placeholder">[Hiring Manager / Recruitment Team]</span><br><span class="placeholder">[Company Name]</span></p>
+<p><strong>Subject: Application for SOC Analyst L1 / Junior Cybersecurity Analyst</strong></p>
+<p>Dear Hiring Manager,</p>
+<p>I am writing to express my interest in the <span class="placeholder">[Job Title]</span> opportunity at <span class="placeholder">[Company Name]</span>. I hold a Bachelor of Technology in Cyber Security from Parul University and have completed hands-on cybersecurity training with TechDefence. I am eager to begin my professional career in a security operations environment and contribute to protecting organizational systems and data.</p>
+<p>Through my practical labs, I have worked with Splunk and Wazuh for log collection, security monitoring, alert creation, and investigation. In my Wazuh lab, I analyzed Linux authentication logs, simulated SSH brute-force activity, reviewed repeated failed-login alerts, and practiced event correlation and MITRE ATT&CK mapping. I have also explored vulnerability assessment and security tools including Nmap, Wireshark, Burp Suite, Qualys, Nessus, and Tanium.</p>
+<p>These projects have strengthened my understanding of networking, Windows and Linux fundamentals, threat detection, vulnerability management, and incident documentation. I am a motivated learner who values careful investigation, clear communication, and continuous improvement. I would welcome the opportunity to develop these skills further while supporting your security team.</p>
+<p>Thank you for considering my application. I would appreciate the opportunity to discuss how my foundation in cybersecurity and enthusiasm for SOC operations could contribute to your team.</p>
+<p>Sincerely,<br><strong>Saikiran Gembali</strong><br><a href="mailto:saikirangembali08@gmail.com">saikirangembali08@gmail.com</a> · 8328393153</p>
+</div>
+<div class="actions no-print"><button class="btn primary" onclick="window.print()">Print / Save cover letter as PDF</button></div>
+</section>
+
+<section id="contact"><h2>Let's connect</h2><p class="sub">Open to entry-level cybersecurity opportunities and learning-focused teams.</p>
+<div class="card contact"><a href="mailto:saikirangembali08@gmail.com">✉ saikirangembali08@gmail.com</a><a href="tel:+918328393153">☎ +91 8328393153</a><a href="https://www.linkedin.com/in/SAIKIRANGEMBALI/" target="_blank" rel="noopener">LinkedIn profile</a><span>GitHub: <span class="placeholder">[Add GitHub URL]</span></span></div>
+</section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> Saikiran Gembali · Cybersecurity Portfolio <span style="float:right">Built with HTML & CSS</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>

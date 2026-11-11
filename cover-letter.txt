@@ -1,0 +1,21 @@
+SAIKIRAN GEMBALI
+saikirangembali08@gmail.com | +91 8328393153
+
+[Date]
+[Hiring Manager / Recruitment Team]
+[Company Name]
+
+Subject: Application for SOC Analyst L1 / Junior Cybersecurity Analyst
+
+Dear Hiring Manager,
+
+I am writing to express my interest in the [Job Title] opportunity at [Company Name]. I hold a Bachelor of Technology in Cyber Security from Parul University and have completed hands-on cybersecurity training with TechDefence. I am eager to begin my professional career in a security operations environment and contribute to protecting organizational systems and data.
+
+Through my practical labs, I have worked with Splunk and Wazuh for log collection, security monitoring, alert creation, and investigation. In my Wazuh lab, I analyzed Linux authentication logs, simulated SSH brute-force activity, reviewed repeated failed-login alerts, and practiced event correlation and MITRE ATT&CK mapping. I have also explored vulnerability assessment and security tools including Nmap, Wireshark, Burp Suite, Qualys, Nessus, and Tanium.
+
+These projects have strengthened my understanding of networking, Windows and Linux fundamentals, threat detection, vulnerability management, and incident documentation. I am a motivated learner who values careful investigation, clear communication, and continuous improvement. I would welcome the opportunity to develop these skills further while supporting your security team.
+
+Thank you for considering my application. I would appreciate the opportunity to discuss how my foundation in cybersecurity and enthusiasm for SOC operations could contribute to your team.
+
+Sincerely,
+Saikiran Gembali
